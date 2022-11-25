@@ -10831,12 +10831,8 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
-.iconoSocialNetwork {
-  transition: transform 0.5s;
-}
-
-.iconoSocialNetwork:hover {
-  transform: scale(1.1);
+.imageDarken:hover {
+  filter: brightness(0.75);
 }
 
 /*# sourceMappingURL=custom.css.map */
