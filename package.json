@@ -1,0 +1,23 @@
+{
+  "name": "pf-fernando-diaz-1",
+  "version": "1.0.0",
+  "description": "Trabajo Final para CoderHOuse\r Sitio Web de 5 páginas HTML\r En este caso se utiliza Bootstrap y SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flldev/PF-Fernando-Diaz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flldev/PF-Fernando-Diaz/issues"
+  },
+  "homepage": "https://github.com/flldev/PF-Fernando-Diaz#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
