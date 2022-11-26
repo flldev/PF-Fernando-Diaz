@@ -1,0 +1,64 @@
+.bgAmarillo {
+    background-color: $colorPrimario;
+}
+
+.bgAmarilloOscuro {
+    background-color: $colorTerciario;
+}
+
+.titulo2 {
+    color: $colorPrimario;
+    background-color: $colorMascara;
+}
+
+.mascara1 {
+    background-color: $colorMascara;
+    .margen1 {
+        @include margenes(35vh, 2rem);
+    }
+}
+
+.cuadro1 {
+    color: $colorPrimario;
+    border: 1px solid $colorPrimario;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bgRojo {
+    background-color: $colorSecundario;
+}
+
+.textoAmarillo {
+    color: $colorPrimario;
+}
+
+.tamañoIcono {
+    width: 1em;
+    height: 1em;
+}
+
+.headerPages__bg {
+    background-image: url('../images/ferraribackground1.jpg');
+    height: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tarjeta1 {
+    max-width: 24rem;
+    background-color:$colorSecundario;
+}
+
+.card {
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.imageDarken:hover {
+    filter: brightness(0.75);
+}
